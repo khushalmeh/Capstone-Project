@@ -1,0 +1,43 @@
+import Dosa from "../images/dosa.jpg";
+import Chola from "../images/chhola.jpg";
+import Idli from "../images/idli.jpg";
+import MasalaDosa from "../images/masala.jpg";
+import Paneer from "../images/paneer.jpg";
+import gujrati from "../images/gujrati.jpeg";
+
+export const MenuList = [
+  {
+    name: "Dosa",
+    image: Dosa,
+    price: "    200 Rs",
+  },
+  {
+    name: "Chola",
+
+    image: Chola,
+    price: "   250 Rs",
+  },
+  {
+    name: "Idli Sambhar",
+    
+    image: Idli,
+    price: "   300 Rs",
+  },
+  {
+    name: "Masala Dosa",
+    
+    image: MasalaDosa,
+    price: "    100",
+  },
+  {
+    name: "Paneer",
+    
+    image: Paneer,
+    price: "    400",
+  },
+  {
+    name: "Gujrati",
+    image: gujrati,
+    price: "    500",
+  },
+];
