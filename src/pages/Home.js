@@ -1,8 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Layout from '../components/Layout/Layout'
-import {Link} from "react-router-dom"
 import Banner from "../images/banner.jpg"
-import HomeStyles from "../styles/HomeStyles.css"
+import "../styles/HomeStyles.css"
 const Home = () => {
   return (
     <Layout>

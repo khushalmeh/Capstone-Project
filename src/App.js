@@ -1,11 +1,10 @@
-import Layout from './components/Layout/Layout';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Menu from './pages/Menu';
-import pagenotfound from './pages/pagenotfound';
 import ContactUs from './pages/ContactUs';
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
     <Route path = "/Contact" element = {<Contact/>}/>
     <Route path = "/Menu" element = {<Menu/>}/>
     <Route path = "/form" element = {<ContactUs/>}/>
-    <Route path = "*" element = {<pagenotfound/>}/> 
+    <Route path = "*" element = {<PageNotFound/>}/> 
    </Routes>
    </BrowserRouter>
   );

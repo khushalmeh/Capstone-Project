@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import { AppBar, Box, Divider, Drawer, IconButton, Toolbar, Typography } from '@mui/material'
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import {Link} from 'react-router-dom'
-import About from './../../pages/About';
 import "../../styles/Headerstyles.css"
 import MenuIcon from '@mui/icons-material/Menu';
 const Header = () => {
